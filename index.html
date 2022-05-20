@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>    </title>
+    <style type="text/css">
+        * {box-sizing: border-box; margin: 0px;}
+        #d1 {
+          height:400px;
+          width: 50%;
+          overflow: auto;
+          float: left;
+          border:1px solid blue;
+        }
+        #d2 {
+          height:400px;
+          width: 50%;
+          overflow: auto;
+          float: left;
+          border:1px solid blue;
+        }
+    </style>
+
+</head>
+<body>
+  <div id="d1">
+    <BUTTON id="botao">press here</BUTTON>
+  </div>
+  <div id="d2"></div>
+</body>
+    <script type="text/javascript">
+      var numbers = [15,25,78,36,-8,28,56];
+
+
+
+      botao.onclick = function() 
+      {
+        for (var i = 0; i <= numbers[6]; i++) {
+          // alert("Okay");
+            var p = document.createElement("p");
+            p.textContent = numbers[i] ;
+            d2.appendChild(p);
+        }
+        
+       
+      }
+
+
+
+    </script>
+</html>
